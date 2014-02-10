@@ -15,3 +15,7 @@ php -f caching-iterator.php
 ````
 
 Which will produce example output in your console/terminal.
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/cballou/php-spl-iterator-interface-examples/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
