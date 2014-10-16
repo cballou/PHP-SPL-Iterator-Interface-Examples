@@ -10,7 +10,7 @@ $files = new RecursiveIteratorIterator(
 // iterate over all files from the child directory "directory-iterator-example"
 foreach ($files as $file) {
     // skip over dots ("." and "..")
-    if (!$file->isDot()) {
+    if (!$files->isDot()) {
         // example of the 
         echo $file->getRealPath() . PHP_EOL;
     }
