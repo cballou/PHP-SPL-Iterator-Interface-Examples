@@ -56,7 +56,7 @@ class TableRows extends RecursiveIteratorIterator {
      */
     public function getBody()
     {
-        $output = '';
+        $this->next();
         while ($this->valid()) {
             echo '<td>' . $this->current() . '</td>';
             $this->next();
